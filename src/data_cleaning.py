@@ -152,6 +152,6 @@ def clean_bank_data_from_excel(excel_path):
         "balance"
     ]
 
-    final_df.to_csv(OUTPUT_FILE, index=False)
+    #final_df.to_csv(OUTPUT_FILE, index=False) //temp comented
 
     return final_df
